@@ -12,18 +12,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
+
+        <!-- PANTALLAS DEL NUEVO FLUJO -->
         <activity
-            android:name=".ResultsActivity"
+            android:name=".ResumenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreferenciasActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <!-- ESTA ES LA QUE ARRANCA LA APP -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- PANTALLAS DE LA CALCULADORA -->
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+
+    </application>
 </manifest>

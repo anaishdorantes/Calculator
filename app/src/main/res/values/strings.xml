@@ -7,6 +7,24 @@
     <string name="resultado">Resultado</string>
     <string name="volver">Volver</string>
 
+    <string name="btn_finalizar">Finalizar</string>
+    <string name="btn_regresar_inicio">Regresar al inicio</string>
+
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <string-array name="colores_array">
+        <item>Rojo</item><item>Azul</item><item>Verde</item>
+        <item>Amarillo</item><item>Morado</item><item>Negro</item><item>Blanco</item>
+    </string-array>
+
+    <string-array name="hobbies_array">
+        <item>leer</item><item>viajar</item><item>programar</item>
+        <item>música</item><item>deporte</item><item>videojuegos</item><item>cocinar</item>
+    </string-array>
+
+
     <string-array name="ops_array">
         <item>Suma</item>
         <item>Resta</item>
